@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="97.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Proporcione la siguiente informacion:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remitente:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Destinatario:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Direccion completa: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero celular: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo de contacto:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="233.0" layoutY="99.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="233.0" layoutY="147.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="233.0" layoutY="199.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="233.0" layoutY="249.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="233.0" layoutY="299.0" prefHeight="25.0" prefWidth="307.0" />
+      <Button layoutX="414.0" layoutY="349.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="157.0" text="Finalizar ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="51.0" layoutY="349.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="131.0" text="Regresar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
